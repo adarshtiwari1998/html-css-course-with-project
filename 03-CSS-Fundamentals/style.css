@@ -105,6 +105,29 @@ li:last-child {
   color: red; 
 } */
 
-article p:last-child {
+/* Misconception: this won't work! */
+article p:first-child {
   color: red;
 }
+
+/*LVHA*/
+a:link {
+  color: #686ad6;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #686ad6;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: #121212;
+  font-style: italic;
+}
+/*LVHA*/
