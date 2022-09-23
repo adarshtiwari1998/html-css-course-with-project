@@ -1,12 +1,23 @@
-h1,
+/*universal selector*/
+* {
+  /* border-top: 10px solid #686ad6; */
+}
+
+body {
+  color: #444;
+  font-family: sans-serif;
+  border-top: 10px solid #686ad6;
+}
+
+/* h1,
 h2,
 h3,
 h4,
 p,
 li {
-  font-family: sans-serif;
+   font-family: sans-serif;
   color: #444;
-}
+} */
 
 h1,
 h2,
@@ -153,3 +164,13 @@ a:active {
 footer p {
   color: green !important;
 } */
+
+/* nav a:link,
+nav p {
+  font-size: 18px;
+} */
+
+nav {
+  font-size: 18px;
+  /* color: #121212; */
+}
