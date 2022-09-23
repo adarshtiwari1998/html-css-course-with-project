@@ -36,11 +36,33 @@ li {
   font-size: 20px;
 }
 
-footer p {
+/* footer p {
   font-size: 14px;
-}
+} */
 
-article header p {
+/* article header p {
   font-size: 16px;
   font-style: italic;
+} */
+
+#authorSec {
+  font-size: 18px;
+  font-style: italic;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ul {
+  list-style: none;
+} */
+
+.related {
+  list-style: none;
 }
