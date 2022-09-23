@@ -52,7 +52,7 @@ li {
   font-style: italic;
 } */
 
-#authorSec {
+#author-text {
   font-size: 18px;
   font-style: italic;
 }
@@ -111,6 +111,7 @@ article p:first-child {
 }
 
 /*LVHA*/
+
 a:link {
   color: #686ad6;
   text-decoration: none;
@@ -130,4 +131,25 @@ a:active {
   background-color: #121212;
   font-style: italic;
 }
+
+/* a {
+  color: red;
+} */
 /*LVHA*/
+
+/*Resolving conflict*/
+/* #copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.copyright-text {
+  color: yellow;
+}
+
+footer p {
+  color: green !important;
+} */
