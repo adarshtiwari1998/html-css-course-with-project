@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
@@ -217,7 +217,7 @@ nav a:link:last-child {
   margin-right: 0;
 }
 
-button {
+.like-btn {
   font-size: 22px;
   padding: 20px;
   cursor: pointer;
@@ -312,9 +312,9 @@ nav {
   float: right;
 }
 
-.main-header {
+/* .main-header {
   background-color: red;
-}
+} */
 
 /* .clear {
   clear: both;
@@ -324,4 +324,16 @@ nav {
   content: "";
   clear: both;
   display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+aside {
+  width: 300px;
+  float: right;
+}
+footer {
+  clear: both;
 }
