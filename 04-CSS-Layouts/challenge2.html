@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge #2</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #ffffff;
+        font-family: sans-serif;
+        line-height: 1.4;
+      }
+
+      .challenge-heading {
+        margin-bottom: 10px;
+      }
+
+      .container {
+        width: 825px;
+        margin: 50px auto;
+      }
+
+      .single-product {
+        border: 4px solid #121212;
+        position: relative;
+      }
+
+      /*Product Information*/
+      .product-title {
+        background-color: #f7f7f7;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 22px;
+        padding: 15px;
+      }
+
+      .product-price {
+        font-size: 24px;
+      }
+
+      .shipping-charge {
+        font-size: 12px;
+        font-weight: bold;
+        color: #727272;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+
+      .sale {
+        background-color: #e41a1a;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 7px 15px;
+        letter-spacing: 2px;
+        border: none;
+        /* display: inline-block; */
+        position: absolute;
+        top: -17px;
+        left: -38px;
+      }
+
+      .product-description {
+        font-size: 14px;
+        color: black;
+        margin-bottom: 10px;
+      }
+
+      .more-info:link,
+      .more-info:visited {
+        font-size: 14px;
+        color: black;
+        display: inline-block;
+        margin-bottom: 30px;
+      }
+
+      .more-info:hover,
+      .more-info:active {
+        text-decoration: none;
+      }
+
+      .color-swatcher-list {
+        margin-left: 4px;
+      }
+
+      .color-option-1,
+      .color-option-2,
+      .color-option-3,
+      .color-option-4,
+      .color-option-5,
+      .color-option-6 {
+        content: "";
+        background-color: #000;
+        /* padding: 12px; */
+        margin-right: 10px;
+        height: 22px;
+        width: 22px;
+        display: inline-block;
+      }
+
+      .color-option-2 {
+        background-color: blue;
+      }
+
+      .color-option-3 {
+        background-color: red;
+      }
+
+      .color-option-4 {
+        background-color: #bdbd0a;
+      }
+
+      .color-option-5 {
+        background-color: #11a011;
+      }
+
+      .color-option-6 {
+        background-color: #a07a11;
+      }
+
+      /*Product Details*/
+      .details-title {
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+      }
+
+      .details-list {
+        list-style: square;
+        margin-left: 20px;
+      }
+
+      .details-list li {
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+
+      .btn-add-cart,
+      .btn-buy-now {
+        background-color: black;
+        border: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 20px;
+        cursor: pointer;
+        padding: 15px;
+        width: 100%;
+        border-top: 5px solid #121212;
+        margin: 0 auto;
+        margin-bottom: 4px;
+      }
+      .btn-add-cart {
+        border-bottom: 5px solid #121212;
+      }
+
+      .btn-buy-now:last-child {
+        margin-bottom: 0px;
+      }
+
+      .btn-add-cart:hover,
+      .btn-buy-now:hover {
+        color: #000;
+        background-color: #f7f7f7;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="challenge-heading">Challenge #2</h1>
+      <article class="single-product">
+        <h2 class="product-title">Addidas shoes for your adventure tour</h2>
+        <img
+          src="img/challenges.jpg"
+          alt="Addidas shoes for your adventure tour img"
+          width="200"
+          height="200"
+        />
+        <p class="product-price"><strong>&dollar;50.00</strong></p>
+        <p class="shipping-charge">Free Shipping</p>
+        <p class="sale">Sale</p>
+        <p class="product-description">
+          Ready to wear up or down,these classic addidas chucks are an everday
+          wardrobe staple. Happy Adventure
+        </p>
+        <a class="more-info" href="#">More Information &rarr;</a>
+        <div class="color-swatcher-list">
+          <div class="color-option-1" title="color1"></div>
+          <div class="color-option-2" title="color2"></div>
+          <div class="color-option-3" title="color3"></div>
+          <div class="color-option-4" title="color4"></div>
+          <div class="color-option-5" title="color5"></div>
+          <div class="color-option-6" title="color6"></div>
+        </div>
+        <h4 class="details-title">Product Details</h4>
+        <ul class="details-list">
+          <li>Lightweight, durable addidas sneaker</li>
+          <li>Lightly padded footbed for extra comfort</li>
+          <li>Iconic chuck taylor ankle patch</li>
+        </ul>
+        <button class="btn-add-cart">Add to cart</button>
+        <button class="btn-buy-now">Buy Now</button>
+      </article>
+    </div>
+  </body>
+</html>
