@@ -265,6 +265,10 @@ h2::after {
   right: -25px;
 }
 
+/* .main-header nav a:link {
+  margin-top: 100px;
+} */
+
 /*Resolving conflict*/
 /* #copyright {
   color: red;
