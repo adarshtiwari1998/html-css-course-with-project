@@ -201,11 +201,11 @@
         margin-top: 20px;
       }
 
-      /*FLOAT*/
-      .container {
+      /*FLEX LAYOUT*/
+      /* .container {
         display: flex;
         gap: 40px;
-      }
+      } */
 
       .product-meta {
         display: flex;
@@ -225,49 +225,67 @@
       .product-detail {
         flex: 1;
       }
+
+      /* GRID LAYOUT */
+
+      .single-product {
+        display: grid;
+        grid-template-columns: 250px 1fr 1fr;
+        column-gap: 40px;
+      }
+
+      .product-title {
+        grid-column: 1 / -1;
+      }
+
+      .btn-add-cart,
+      .btn-buy-now {
+        grid-column: 1 / -1;
+      }
     </style>
   </head>
   <body>
     <h1 class="challenge-heading">Challenge #2</h1>
     <article class="single-product">
       <h2 class="product-title">Addidas shoes for your adventure tour</h2>
-      <div class="container clearfix">
-        <img
-          src="img/challenges.jpg"
-          alt="Addidas shoes for your adventure tour img"
-          width="250"
-          height="250"
-          class="product-img"
-        />
-        <div class="product-info">
-          <div class="product-meta">
-            <p class="product-price"><strong>&dollar;50.00</strong></p>
-            <p class="shipping-charge">Free Shipping</p>
-          </div>
-          <p class="sale">Sale</p>
-          <p class="product-description">
-            Ready to wear up or down,these classic addidas chucks are an everday
-            wardrobe staple. Happy Adventure
-          </p>
-          <a class="more-info" href="#">More Information &rarr;</a>
-          <div class="color-swatcher-list">
-            <div class="color-option-1" title="color1"></div>
-            <div class="color-option-2" title="color2"></div>
-            <div class="color-option-3" title="color3"></div>
-            <div class="color-option-4" title="color4"></div>
-            <div class="color-option-5" title="color5"></div>
-            <div class="color-option-6" title="color6"></div>
-          </div>
+      <!-- FLEXBOX LAYOUT -->
+      <!-- <div class="container clearfix"> -->
+      <img
+        src="img/challenges.jpg"
+        alt="Addidas shoes for your adventure tour img"
+        width="250"
+        height="250"
+        class="product-img"
+      />
+      <div class="product-info">
+        <div class="product-meta">
+          <p class="product-price"><strong>&dollar;50.00</strong></p>
+          <p class="shipping-charge">Free Shipping</p>
         </div>
-        <div class="product-detail">
-          <h4 class="details-title">Product Details</h4>
-          <ul class="details-list">
-            <li>Lightweight, durable addidas sneaker</li>
-            <li>Lightly padded footbed for extra comfort</li>
-            <li>Iconic chuck taylor ankle patch</li>
-          </ul>
+        <p class="sale">Sale</p>
+        <p class="product-description">
+          Ready to wear up or down,these classic addidas chucks are an everday
+          wardrobe staple. Happy Adventure
+        </p>
+        <a class="more-info" href="#">More Information &rarr;</a>
+        <div class="color-swatcher-list">
+          <div class="color-option-1" title="color1"></div>
+          <div class="color-option-2" title="color2"></div>
+          <div class="color-option-3" title="color3"></div>
+          <div class="color-option-4" title="color4"></div>
+          <div class="color-option-5" title="color5"></div>
+          <div class="color-option-6" title="color6"></div>
         </div>
       </div>
+      <div class="product-detail">
+        <h4 class="details-title">Product Details</h4>
+        <ul class="details-list">
+          <li>Lightweight, durable addidas sneaker</li>
+          <li>Lightly padded footbed for extra comfort</li>
+          <li>Iconic chuck taylor ankle patch</li>
+        </ul>
+      </div>
+      <!-- </div> -->
       <button class="btn-add-cart">Add to cart</button>
       <button class="btn-buy-now">Buy Now</button>
     </article>
