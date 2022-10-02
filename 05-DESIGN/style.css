@@ -117,6 +117,12 @@ h1 {
 }
 
 /* FEATURES CSS */
+.features-icon {
+  stroke: #087f5b;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 16px;
+}
 .features-title {
   margin-bottom: 16px;
   /* 10 / 12 / 14 / 16 / 18 / */
@@ -159,6 +165,7 @@ h1 {
 .testimonials-author {
 }
 
+/* Best Selling */
 .chair-box {
   padding: 25px;
 }
@@ -179,6 +186,12 @@ h1 {
 
 .chair-details li:last-child {
   margin-bottom: 0;
+}
+
+.chair-icons {
+  stroke: #087f5b;
+  width: 24px;
+  height: 24px;
 }
 
 .chair-price {
