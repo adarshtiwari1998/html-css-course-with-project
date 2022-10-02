@@ -107,6 +107,7 @@ h1 {
   /* 2 / 4 / 8 / */
   line-height: 1.1;
   letter-spacing: -1px;
+  /* text-shadow: 0 5px 5px rgba(0, 0, 0, 0.02); */
 }
 
 .header-text {
@@ -166,6 +167,10 @@ h1 {
 }
 
 /* Best Selling */
+
+.chair {
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
 .chair-box {
   padding: 25px;
 }
