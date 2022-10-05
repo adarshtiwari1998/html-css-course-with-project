@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HERO Section</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /*
+      SPACING SYSTEM (px)
+
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+      FONT SIZE SYSTEM (px)
+
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Rubik", sans-serif;
+        color: #343a40;
+      }
+
+      .container {
+        margin: 0 auto;
+        width: 1200px;
+      }
+
+      /* HEADER STYLE */
+
+      header {
+        background-color: orangered;
+        height: 100vh;
+        position: relative;
+        background-image: linear-gradient(
+            rgba(34, 34, 34, 0.6),
+            rgba(34, 34, 34, 0.6)
+          ),
+          url(hero.jpg);
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+        color: #fff;
+        /* background-image: linear-gradient(to right, red, blue); */
+      }
+
+      /* NAVIGATION STYLE */
+      nav {
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+        text-transform: uppercase;
+      }
+
+      .header-container {
+        width: 1200px;
+        position: absolute;
+        display: flex;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .header-container-inner {
+        width: 50%;
+      }
+
+      h1 {
+        font-size: 52px;
+        margin-bottom: 32px;
+        line-height: 1.05;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 48px;
+      }
+
+      .btn:link,
+      .btn:visited {
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: #ff922b;
+        color: #fff;
+        padding: 16px 32px;
+        display: inline-block;
+        border-radius: 9px;
+      }
+
+      /* Internal section */
+
+      h2 {
+        font-size: 44px;
+        margin-bottom: 48px;
+      }
+
+      section {
+        padding: 96px 0;
+        background-color: #f7f7f7;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div>LOGO</div>
+        <div>Navigation</div>
+      </nav>
+      <div class="header-container">
+        <div class="header-container-inner">
+          <h1>
+            A healthy delicious meal delivered to your door, every single day
+          </h1>
+          <p>
+            The hi-tech smart 365-days-per-year food subsciption that will make
+            your eat healty all again. Tailored to your personal tastes and
+            other nuttitional needs.
+          </p>
+          <a href="#" class="btn">Start eating now!</a>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <h2>Nice Service</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde aperiam
+          quam dicta praesentium et eos ad itaque dolores rerum, doloremque
+          dolore natus impedit, commodi temporibus culpa, inventore officia
+          molestias suscipit!
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
