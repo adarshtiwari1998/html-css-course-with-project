@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emailer Dashboard App Layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /*
+      SPACING SYSTEM (px)
+
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+      FONT SIZE SYSTEM (px)
+
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: sans-serif;
+        color: #343a40;
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        display: grid;
+        grid-template-columns: 80px 400px 1fr 250px;
+        grid-template-rows: 80px 1fr;
+        height: 100vh;
+      }
+
+      nav,
+      main,
+      section,
+      aside {
+        padding-top: 24px;
+        overflow: scroll;
+      }
+
+      nav {
+        background-color: #343a40;
+        color: #fff;
+        grid-row: 1 / -1;
+        /* font-size: 14px; */
+        /* display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center; */
+      }
+
+      menu {
+        grid-column: 2 / -1;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 0 40px;
+        background-color: #7950f2;
+      }
+
+      button {
+        display: inline-block;
+        padding: 8px 12px;
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+        background: #6741d9;
+        cursor: pointer;
+        border: none;
+      }
+
+      button:last-child {
+        margin-left: auto;
+        background-color: #d6336c;
+      }
+
+      section {
+        display: flex;
+        flex-direction: column;
+        /* overflow-y: scroll; */
+        padding: 40px;
+        gap: 40px;
+        background-color: #e9ecef;
+      }
+
+      .email {
+        background-color: #adb5bd;
+        min-height: 96px;
+        max-height: auto;
+        font-size: 20px;
+        text-align: left;
+        padding: 16px;
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+        justify-content: center;
+      }
+
+      main {
+        background-color: #fff;
+      }
+
+      main div {
+        text-align: left;
+        padding: 24px;
+        overflow-y: scroll;
+      }
+
+      main div p {
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 500;
+      }
+
+      aside {
+        background-color: #e9ecef;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>Nav</nav>
+    <menu>
+      <button>New</button>
+      <button>Reply</button>
+      <button>Forward</button>
+      <button>Mark unread</button>
+      <button>Trash</button>
+    </menu>
+    <section>
+      <div class="email">
+        Lorem ipsum dolor sit amet consectetur, adipisicing...
+      </div>
+      <div class="email">Email 1</div>
+      <div class="email">Email 1</div>
+      <div class="email">Email 1</div>
+      <div class="email">Email 1</div>
+      <div class="email">Email 1</div>
+      <div class="email">Email 1</div>
+      <div class="email">Email 1</div>
+      <div class="email">Email 1</div>
+      <div class="email">Email 1</div>
+      <div class="email">Email 1</div>
+      <div class="email">Email 1</div>
+    </section>
+    <main>
+      <h3>Email View</h3>
+      <div>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus tenetur harum eius corrupti amet temporibus a eos sequi
+          distinctio consequatur facilis debitis hic non cumque quaerat porro,
+          ex iste laudantium quos est quo rerum fugit. Maiores rerum quidem
+          reprehenderit eaque perferendis porro praesentium placeat assumenda
+          ratione nostrum, inventore facere eos explicabo, impedit molestias
+          enim corporis. Maxime, illo nemo ipsum reprehenderit aut iusto in
+          nesciunt sapiente itaque magni ex vero mollitia rem sequi adipisci
+          necessitatibus debitis non. Doloribus saepe odio sed maxime molestias
+          rerum aperiam ipsam voluptate mollitia! Ratione quis, ullam, facere
+          excepturi pariatur numquam itaque quibusdam delectus aliquam nisi
+          soluta, sint quisquam facilis nostrum voluptates quae. Nobis voluptate
+          aperiam, ad iusto corporis facere dolore necessitatibus eligendi in
+          quo aspernatur sint obcaecati error dignissimos repellat, sequi odit
+          nemo tempora inventore non, nesciunt totam nostrum rem. Praesentium
+          molestias ad nihil pariatur consequatur! Quidem, iste velit qui magnam
+          ratione veritatis vitae laborum corrupti dolorum, excepturi voluptatum
+          quo aliquam illum placeat. Quidem alias eos ea, maxime deleniti
+          reprehenderit minima ullam. Animi asperiores quam distinctio iusto
+          illo, quas a aliquid libero, aspernatur ipsa molestiae earum eos sunt,
+          perferendis natus. Delectus, tempore. Iste, neque quod placeat minus,
+          optio repudiandae sint pariatur, architecto consectetur voluptatum
+          explicabo doloremque cupiditate velit. Expedita consequuntur itaque
+          optio provident obcaecati corrupti fuga molestias commodi eius, illum
+          nam ratione inventore aperiam officiis, iusto quasi perferendis,
+          fugiat velit vitae iure est? Possimus quae itaque in sapiente
+          delectus. Blanditiis, velit modi! Aliquid, provident, maxime iusto
+          corrupti dolore quibusdam modi eaque officia adipisci quasi doloremque
+          id tenetur facilis. Magnam esse earum quam laboriosam? Amet dolore
+          molestiae at fuga, aperiam itaque veniam mollitia perferendis magni,
+          iure ad, doloribus illum non eligendi ipsum facilis optio velit. Sed
+          deleniti voluptate accusantium natus dolorem odit, illo sunt eius?
+          Possimus neque illum tempora iusto culpa. Repudiandae consequuntur
+          nisi, tenetur expedita officiis facere blanditiis ipsa, excepturi
+          voluptas nobis architecto nesciunt explicabo deserunt inventore
+          quaerat tempore eius voluptatibus tempora ullam culpa. Dolorem,
+          officiis. Libero suscipit, temporibus laborum architecto sed corporis
+          quibusdam officia dolorem sapiente ipsa soluta ipsum repudiandae rerum
+          voluptatum consectetur voluptatem unde voluptatibus omnis?
+          Necessitatibus, ullam! Praesentium, odio vitae voluptates facilis
+          iusto libero quae numquam veniam explicabo cupiditate ea dignissimos
+          quia at! Soluta dolorem reiciendis expedita vero quidem voluptates
+          voluptatibus nostrum pariatur, nihil earum maiores nulla eligendi
+          temporibus incidunt saepe totam dolor quasi non laboriosam, ab culpa
+          delectus? Eaque facere deleniti exercitationem? Provident aliquam iure
+          alias molestias autem suscipit distinctio repudiandae quas?
+        </p>
+      </div>
+    </main>
+    <aside>Additional Info</aside>
+  </body>
+</html>
