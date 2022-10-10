@@ -13,6 +13,8 @@
     <title>Corni Food Project</title>
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </head>
   <body>
     <header class="header">
@@ -180,6 +182,42 @@
               alt="Step third delivery screen"
             />
           </div>
+        </div>
+      </section>
+      <!-- MEALS + DIETS SECTION -->
+      <section class="section-meals-and-diets">
+        <div class="container">
+          <span class="subheading">Meals</span>
+          <h2 class="heading-secondary">
+            Omnifood AI chooses from 5,000+ recipes
+          </h2>
+        </div>
+        <div class="container grid grid--3-cols">
+          <div class="meal-card first">
+            <img
+              src="img/meals/meal-1.jpg"
+              class="meal-img"
+              alt="Meal 1 Japanese Gyozas"
+            />
+            <span class="tag">Vegetarian</span>
+            <p class="meal-title">Japanese Gyozas</p>
+            <ul class="meal-list-attributes">
+              <li class="meal-attribute">
+                <ion-icon name="flame-outline"></ion-icon><span>650 calories</span></li>
+              <li class="meal-attribute">
+                <ion-icon name="restaurant-outline"></ion-icon>
+               <span> NutriScore: &reg;&nbsp;74</span></li>
+              <li class="meal-attribute"><ion-icon name="star-half-outline"></ion-icon><span>
+                4.9 rating (537 review)
+              </span></li></li>
+            </ul>
+            <div class="meal-cta">
+              <span>&dollar;20</span>
+              <a href="#" class="btn btn--add-to-cart">Add to cart</a> 
+            </div>
+          </div>
+          <div class="meals-card second">Meals</div>
+          <div class="diet-list">Diet</div>
         </div>
       </section>
     </main>
