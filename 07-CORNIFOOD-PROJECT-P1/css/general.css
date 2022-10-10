@@ -149,7 +149,9 @@ body {
   border-radius: 9px;
   font-weight: 600;
   /* Put transition on original class or "state"  */
-  transition: background-color 0.3s;
+  /* transition: background-color 0.3s; */
+  /* transition: box-shadow 0.3s; */
+  transition: all 0.3s;
 }
 
 .btn--full:link,
