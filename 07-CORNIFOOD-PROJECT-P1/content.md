@@ -51,21 +51,41 @@ Kid-friendly
 
 **Omnifood AI chooses from 5,000+ recipes**
 
-Meal 1: Japanese Gyozas
+Meal 1: Nikujaga
+
+- Category: Meat and Feast
+- Calories: 700
+- NutriScore (Registered): 93
+- Average rating: 4.9
+- Number reviews: 841
+- $18
+
+Meal 2: Wagyu Sushi
+
+- Category: GRILLED
+- Calories: 800
+- NutriScore (Registered): 94
+- Average rating: 4.8
+- Number reviews: 741
+- $22
+
+Meal 3: Japanese Gyozas
 
 - Category: Vegetarian
 - Calories: 650
 - NutriScore (Registered): 74
 - Average rating: 4.9
 - Number reviews: 537
+- $12
 
-Meal 2: Avocado Salad
+Meal 4: Avocado Salad
 
 - Category: Vegan and Paleo
 - Calories: 400
 - NutriScore (Registered): 92
 - Average rating: 4.8
 - Number reviews: 441
+- $14
 
 ### We offer a free sample meal
 

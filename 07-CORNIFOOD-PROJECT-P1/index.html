@@ -13,8 +13,14 @@
     <title>Corni Food Project</title>
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
     <header class="header">
@@ -192,32 +198,171 @@
             Omnifood AI chooses from 5,000+ recipes
           </h2>
         </div>
-        <div class="container grid grid--3-cols">
-          <div class="meal-card first">
+        <div class="container grid grid--3-cols grid--3-meals-cols">
+          <!-- MEAL CARD 1 -->
+          <div class="meal-card">
             <img
               src="img/meals/meal-1.jpg"
               class="meal-img"
-              alt="Meal 1 Japanese Gyozas"
+              alt="Meal 1 Niku jaga"
             />
-            <span class="tag">Vegetarian</span>
-            <p class="meal-title">Japanese Gyozas</p>
-            <ul class="meal-list-attributes">
-              <li class="meal-attribute">
-                <ion-icon name="flame-outline"></ion-icon><span>650 calories</span></li>
-              <li class="meal-attribute">
-                <ion-icon name="restaurant-outline"></ion-icon>
-               <span> NutriScore: &reg;&nbsp;74</span></li>
-              <li class="meal-attribute"><ion-icon name="star-half-outline"></ion-icon><span>
-                4.9 rating (537 review)
-              </span></li></li>
-            </ul>
-            <div class="meal-cta">
-              <span>&dollar;20</span>
-              <a href="#" class="btn btn--add-to-cart">Add to cart</a> 
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--meat">Meat Food</span>
+                <span class="tag tag--feast">Feast</span>
+              </div>
+              <p class="meal-title">Niku jaga</p>
+              <ul class="meal-list-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon
+                  ><span><strong>700</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span> NutriScore: &reg;&nbsp;<strong>93</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="star-half-outline"
+                  ></ion-icon
+                  ><span> <strong>4.9</strong> rating (841 review)</span>
+                </li>
+              </ul>
+            </div>
+            <div class="meal-price-and-cta">
+              <span class="price">&dollar;18</span>
+              <a href="#" class="btn btn--full btn---place-order"
+                >Place Order</a
+              >
             </div>
           </div>
-          <div class="meals-card second">Meals</div>
-          <div class="diet-list">Diet</div>
+          <!-- MEAL CARD 2 -->
+          <div class="meal-card">
+            <img
+              src="img/meals/meal-2.jpg"
+              class="meal-img"
+              alt="Meal 2 Wagyu Sushi"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--grilled">Grilled</span>
+              </div>
+              <p class="meal-title">Wagyu Sushi</p>
+              <ul class="meal-list-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon
+                  ><span><strong>800</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span> NutriScore: &reg;&nbsp;<strong>94</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="star-half-outline"
+                  ></ion-icon
+                  ><span><strong>4.8</strong> rating (741 review)</span>
+                </li>
+              </ul>
+            </div>
+            <div class="meal-price-and-cta">
+              <span class="price">&dollar;22</span>
+              <a href="#" class="btn btn--full btn---place-order"
+                >Place Order</a
+              >
+            </div>
+          </div>
+          <!-- MEAL CARD 3 -->
+          <div class="meal-card">
+            <img
+              src="img/meals/meal-3.jpg"
+              class="meal-img"
+              alt="Meal 1 Japanese Gyozas"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Vegetarian</span>
+              </div>
+              <p class="meal-title">Japanese Gyozas</p>
+              <ul class="meal-list-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon
+                  ><span><strong>650</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span> NutriScore: &reg;&nbsp;<strong>74</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="star-half-outline"
+                  ></ion-icon
+                  ><span> <strong>4.9</strong> rating (537 review) </span>
+                </li>
+              </ul>
+            </div>
+            <div class="meal-price-and-cta">
+              <span class="price">&dollar;12</span>
+              <a href="#" class="btn btn--full btn---place-order"
+                >Place Order</a
+              >
+            </div>
+          </div>
+          <!-- MEAL CARD 4 -->
+          <div class="meal-card">
+            <img
+              src="img/meals/meal-4.jpg"
+              class="meal-img"
+              alt="Meal 1 Avocado Salad"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegan">Vegan</span>
+                <span class="tag tag--paleo">Paleo</span>
+              </div>
+              <p class="meal-title">Avocado Salad</p>
+              <ul class="meal-list-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon
+                  ><span><strong>400</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>NutriScore: &reg;&nbsp;<strong>92</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="star-half-outline"
+                  ></ion-icon
+                  ><span> <strong>4.8</strong> rating (441 review) </span>
+                </li>
+              </ul>
+            </div>
+            <div class="meal-price-and-cta">
+              <span class="price">&dollar;14</span>
+              <a href="#" class="btn btn--full btn---place-order"
+                >Place Order</a
+              >
+            </div>
+          </div>
+          <!-- DIET LIST -->
+          <div class="diet-list el--5">Diet</div>
         </div>
       </section>
     </main>
