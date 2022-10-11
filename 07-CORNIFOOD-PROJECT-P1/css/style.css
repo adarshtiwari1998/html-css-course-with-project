@@ -337,29 +337,6 @@
   row-gap: 6.4rem;
 }
 
-.diet-list {
-}
-
-.list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-}
-
-.list-icon {
-  width: 3rem;
-  height: 3rem;
-  color: #e67e22;
-}
-
-.list-item {
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-}
-
 /* MEAL ITEM GROUP TAG */
 
 .tag-group-attributes a:nth-child(n) {
@@ -371,7 +348,7 @@
 .btn.btn--full.btn---group-tag:visited {
   padding: 1.2rem 1.6rem;
   display: inline-block;
-  background: #ced4da;
+  background: #dee2e6;
   color: #333;
   font-weight: 500;
   font-size: 1.6rem;
@@ -379,7 +356,7 @@
 
 .btn.btn--full.btn---group-tag:hover,
 .btn.btn--full.btn---group-tag:active {
-  background: #adb5bd;
+  background: #ced4da;
 }
 
 .all-recipes {
@@ -446,4 +423,48 @@
 
 .gallery-item img:hover {
   transform: scale(1.1);
+}
+
+/**************************/
+/* PRICING + FEATURES SECTION */
+/**************************/
+
+.section-pricing-and-features {
+  padding: 9.6rem 0;
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+.plan-name {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #cf711f;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  margin-bottom: 3.2rem;
+}
+.plan-price {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.6;
+}
+
+.plan-price span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.plan-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #6f6f6f;
+}
+
+.plan-cta-sign-up {
+  text-align: center;
+  margin-top: 4.8rem;
 }
