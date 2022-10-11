@@ -433,10 +433,43 @@
   padding: 9.6rem 0;
 }
 
+.pricing-plan {
+  border-radius: 11px;
+  padding: 4.8rem;
+  width: 75%;
+}
+
+.pricing-plan.plan--starter {
+  justify-self: end;
+  box-shadow: inset 0px 0px 0px 2px #fdf2e9;
+}
+
+.pricing-plan.plan--complete {
+  background-color: #fdf2e9;
+  position: relative;
+  overflow: hidden;
+}
+
+.plan--complete::after {
+  content: "Best Value";
+  position: absolute;
+  color: #333;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  top: 6%;
+  right: -18%;
+  letter-spacing: 0.75px;
+  transform: rotate(45deg);
+  background-color: #ffd43b;
+  padding: 0.8rem 8rem;
+}
+
 .plan-header {
   text-align: center;
   margin-bottom: 4.8rem;
 }
+
 .plan-name {
   font-size: 2rem;
   text-transform: uppercase;
@@ -467,4 +500,12 @@
 .plan-cta-sign-up {
   text-align: center;
   margin-top: 4.8rem;
+}
+
+/* .plan-cta-sign-up.plan--cta-sign-up-starter {
+  margin-top: 9.4rem;
+} */
+
+.list-icon.cross {
+  color: #ffa94d;
 }
