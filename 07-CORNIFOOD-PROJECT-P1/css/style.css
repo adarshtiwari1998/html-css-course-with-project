@@ -231,6 +231,12 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
   overflow: hidden;
+  transition: all 0.4s;
+}
+
+.meal-card:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
 .meal-content {
@@ -331,11 +337,6 @@
   row-gap: 6.4rem;
 }
 
-.el--5 {
-  grid-column: 3 / 4;
-  grid-row: 1 / 2;
-}
-
 .diet-list {
 }
 
@@ -357,4 +358,31 @@
   display: flex;
   align-items: center;
   gap: 1.6rem;
+}
+
+/* MEAL ITEM GROUP TAG */
+
+.tag-group-attributes a:nth-child(n) {
+  margin-right: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.btn.btn--full.btn---group-tag:link,
+.btn.btn--full.btn---group-tag:visited {
+  padding: 1.2rem 1.6rem;
+  display: inline-block;
+  background: #ced4da;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.btn.btn--full.btn---group-tag:hover,
+.btn.btn--full.btn---group-tag:active {
+  background: #adb5bd;
+}
+
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
 }
