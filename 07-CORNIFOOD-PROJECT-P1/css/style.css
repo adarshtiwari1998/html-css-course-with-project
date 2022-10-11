@@ -543,3 +543,35 @@
   color: #333;
   line-height: 1.8;
 }
+
+/**************************/
+/* CTA SECTION */
+/**************************/
+.section-cta {
+  padding: 9.6rem 0;
+}
+
+.cta-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* background-color: #e67e22; */
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  overflow: hidden;
+
+  /* Temp */
+  height: 50rem;
+}
+
+.cta-text-box {
+}
+.cta-supporting-img-box {
+  background: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.35),
+      rgba(230, 125, 34, 0.35)
+    ),
+    url("../img/cta-supporing-img-lady-eating.jpg") center no-repeat;
+  background-size: cover;
+}
