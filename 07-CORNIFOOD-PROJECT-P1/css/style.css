@@ -625,3 +625,11 @@
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
+
+/**************************/
+/* FOOTER SECTION */
+/**************************/
+.section-footer {
+  border-top: 1px solid #eee;
+  padding: 12.8rem 0;
+}
