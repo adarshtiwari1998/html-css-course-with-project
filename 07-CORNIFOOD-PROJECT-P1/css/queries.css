@@ -1,0 +1,32 @@
+/* rem and em do not depend on html font size in media queries
+Instead, 1rem = 1em = 16px
+
+rem = root font size
+em = current font size
+
+(rem) is getting some bugs in some browsers in media queries so 
+
+instead of using (rem) in media queries we are using (em)
+*/
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+/* we can choose 1350, so 1350 / 16px = 84.374 so we can use round values so thats going with 84 */
+
+@media (max-width: 84em) {
+  .hero-container {
+    max-width: 120rem;
+  }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
