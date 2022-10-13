@@ -23,6 +23,10 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
     <script defer src="js/script.js"></script>
   </head>
   <body>
@@ -33,19 +37,21 @@
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li>
-            <a href="#" class="main-nav-link">How it works</a>
+            <a href="#how-it-works" class="main-nav-link">How it works</a>
           </li>
           <li>
-            <a href="#" class="main-nav-link">Meals</a>
+            <a href="#meals" class="main-nav-link">Meals</a>
           </li>
           <li>
-            <a href="#" class="main-nav-link">Testimonials</a>
+            <a href="#testimonials" class="main-nav-link">Testimonials</a>
           </li>
           <li>
-            <a href="#" class="main-nav-link">Pricing</a>
+            <a href="#pricing" class="main-nav-link">Pricing</a>
           </li>
           <li>
-            <a href="#" class="main-nav-link nav-cta">Try for free</a>
+            <a href="#try-for-free-cta" class="main-nav-link nav-cta"
+              >Try for free</a
+            >
           </li>
         </ul>
       </nav>
@@ -70,8 +76,12 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs.
             </p>
-            <a href="#" class="btn btn--full mr-sm">Start Eating Now</a>
-            <a href="#" class="btn btn--outline">Learn More &darr;</a>
+            <a href="#try-for-free-cta" class="btn btn--full mr-sm"
+              >Start Eating Now</a
+            >
+            <a href="#how-it-works" class="btn btn--outline"
+              >Learn More &darr;</a
+            >
             <div class="delivered-meals-happy-customer">
               <div class="delivered-customer-imgs">
                 <img
@@ -136,7 +146,7 @@
         </div>
       </section>
       <!-- HOW IT WORKS SECTION -->
-      <section class="section-how-it-works">
+      <section id="how-it-works" class="section-how-it-works">
         <div class="container">
           <span class="subheading">How it works</span>
           <h2 class="heading-secondary">
@@ -201,7 +211,7 @@
         </div>
       </section>
       <!-- MEALS + DIETS SECTION -->
-      <section class="section-meals-and-diets">
+      <section id="meals" class="section-meals-and-diets">
         <div class="container center-text">
           <span class="subheading">Meals</span>
           <h2 class="heading-secondary">
@@ -483,7 +493,7 @@
         </div>
       </section>
       <!-- TESTIMONIALS AND GALLERY SECTION -->
-      <section class="section-testimonials-and-gallery">
+      <section id="testimonials" class="section-testimonials-and-gallery">
         <div class="testimonials-container">
           <span class="subheading">Testimonials</span>
           <h2 class="heading-secondary">
@@ -629,7 +639,7 @@
         </div>
       </section>
       <!-- PRICING AND FEATURES SECTION -->
-      <section class="section-pricing-and-features">
+      <section id="pricing" class="section-pricing-and-features">
         <div class="container">
           <span class="subheading">PRICING</span>
           <h2 class="heading-secondary">
@@ -744,7 +754,7 @@
         </div>
       </section>
       <!-- CTA SECTION -->
-      <section class="section-cta">
+      <section id="try-for-free-cta" class="section-cta">
         <div class="container">
           <div class="cta-grid">
             <div class="cta-text-box">
