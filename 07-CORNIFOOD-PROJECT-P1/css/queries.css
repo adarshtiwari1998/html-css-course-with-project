@@ -139,6 +139,7 @@ instead of using (rem) in media queries we are using (em)
 
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
 
   .main-nav {
