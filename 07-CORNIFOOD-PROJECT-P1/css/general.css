@@ -14,7 +14,9 @@ Bold: 700
 - Line height 
  Default: 1
  Small: 1.05
+ Medium: 1.2
  Paragraph Default: 1.6
+ Large: 1.8
 
 - Letter spacing
 -0.5px
@@ -72,6 +74,7 @@ html {
   /* to be set 10px default is 16px   so divide 10px / 16px = 0.625 = 62.5%*/
   /* Percentage of user's browsers font size setting */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -79,6 +82,9 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  overflow-x: hidden;
 }
 
 /**************************/
@@ -257,6 +263,7 @@ body {
 .list-item {
   font-size: 1.8rem;
   display: flex;
+  line-height: 1.2;
   align-items: center;
   gap: 1.6rem;
 }
